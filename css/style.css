@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCFAF9;
+
+
+}
+
+.imgHead {
+    height: 340px;
+    width: 100%;
+}
+
+
+.above {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.black {
+
+    width: 100%;
+    height: 799px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: black;
+    display: none;
+
+}
+
+
+.aboveh1 {
+    height: 110px;
+    width: 343px;
+
+    border-radius: nullpx;
+    font-family: Big Shoulders Display;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 32px 16px;
+
+
+
+}
+
+
+.aboveright p {
+
+    position: relative;
+    height: 160px;
+    width: 350px;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    color: #444444;
+    font-family: 'Outfit';
+    margin: 0px 16px 32px;
+
+
+}
+
+.ourlocation {
+    position: relative;
+    width: 260px;
+    height: 72px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, black 70%, #D5966C 30%);
+    display: flex;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 32px;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 16px;
+
+}
+
+.arrow {
+    position: relative;
+    left: 85px;
+}
+
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.bottomRow {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img1 {
+    width: 343px;
+    height: 320px;
+    margin: 0px 16px 0px;
+    margin-bottom: 16px;
+}
+
+.img2 {
+    height: 480px;
+    width: 343px;
+    margin-bottom: 16px;
+}
+
+.img3 {
+    height: 200px;
+    width: 343px;
+    margin-bottom: 16px;
+
+}
+
+
+
+
+.ah1 {
+    height: 90px;
+    width: 343px;
+
+
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.ap {
+    width: 343px;
+    border-radius: nullpx;
+
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #444444;
+    margin: 25px 16px 32px;
+
+}
+
+.secondh1p {
+    background-color: black;
+    color: white;
+    height: 293px;
+    width: 343px;
+}
+
+
+
+.secondh1p h1 {
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    height: 120px;
+    width: 350px;
+    margin: 48px 24px 0px;
+}
+
+.secondh1p p {
+    height: 84px;
+    width: 295px;
+    left: 0px;
+    top: 114px;
+    border-radius: nullpx;
+
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    margin: 24px 24px 47px;
+
+}
+
+footer {
+    background: #151515;
+    height: 336px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    height: 244px;
+}
+
+.logoLight {
+    position: relative;
+    height: 58px;
+    width: 160px;
+    top: 48px;
+    left: 32px;
+}
+
+.end p {
+    position: relative;
+    height: 104px;
+    width: 311px;
+    left: 0px;
+    top: 78px;
+    border-radius: nullpx;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    padding: 0px 32px 40px;
+
+}
+
+.instagram {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icons {
+    position: relative;
+    left: 32px;
+    top: 120px;
+    border-radius: 0px;
+
+}
+
+
+@media screen and (min-width: 1280px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        align-items: unset;
+        max-width: 100%;
+    }
+
+
+    .above {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        height: 800px;
+        width: 1275px;
+        justify-content: start;
+        top: 0px;
+        border-radius: 0px;
+
+    }
+
+    .imgHead {
+        display: none;
+    }
+
+    .black {
+        position: relative;
+        display: block;
+        height: 800px;
+        width: 990px;
+        background-color: #151515;
+        background-image: url(../assets/desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .aboveh1 {
+        position: absolute;
+        height: 176px;
+        width: 514px;
+        left: 165px;
+        top: 189px;
+        border-radius: nullpx;
+
+        font-family: Big Shoulders Display;
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 88px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(90deg, white 52%, black 48%);
+
+    }
+
+    .aboveright {
+        position: relative;
+        left: -53px;
+    }
+
+
+    .middle {
+        display: flex;
+    }
+
+    .firsth1p {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .firsth1p img {
+        height: 400px;
+        width: 635px;
+        left: 640px;
+        top: 980px;
+        border-radius: 0px;
+
+    }
+
+
+    .img1 {
+        height: 400px;
+        width: 635px;
+        left: 640px;
+        top: 980px;
+        border-radius: 0px;
+    }
+
+    .bottomRow {
+        display: flex;
+        flex-direction: row;
+        margin-left: 165px;
+        margin-top: 15px;
+    }
+
+
+    .img2 {
+        position: relative;
+        height: 720px;
+        width: 635px;
+        left: 120px;
+
+
+    }
+
+    .img3 {
+        height: 313px;
+        width: 445px;
+        left: 830px;
+        top: 1410px;
+        border-radius: 0px;
+        margin-left: 167px;
+
+
+    }
+
+
+    .ah1 {
+        height: 90px;
+        width: 343px;
+
+
+        font-family: Big Shoulders Display;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 25px;
+        margin-left: 16px;
+    }
+
+    .ap {
+        width: 343px;
+        border-radius: nullpx;
+
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #444444;
+        margin: 25px 16px 32px;
+
+    }
+
+    .secondh1p {
+        background-color: black;
+        color: white;
+        height: 377px;
+        width: 445px;
+        position: relative;
+        top: 342px;
+        left: -444px;
+    }
+
+
+
+    .secondh1p h1 {
+        font-family: Big Shoulders Display;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        height: 120px;
+        width: 350px;
+        margin: 48px 24px 0px;
+    }
+
+    .secondh1p p {
+        height: 84px;
+        width: 295px;
+        left: 0px;
+        top: 114px;
+        border-radius: nullpx;
+
+        font-family: Outfit;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        margin: 24px 24px 47px;
+
+    }
+
+    footer {
+        background: #151515;
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .end {
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-between;
+        padding: 80px 165px 105px;
+
+    }
+
+    .logoLight {
+        position: relative;
+        height: 58px;
+        width: 159.57235717773438px;
+
+
+        top: 48px;
+        left: 32px;
+    }
+
+    .end p {
+        position: relative;
+        height: 84px;
+        width: 430px;
+        left: 0px;
+        top: 35px;
+        border-radius: nullpx;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+        padding: 0px 32px 40px;
+
+    }
+
+    .instagram {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .icons {
+        position: relative;
+        left: 32px;
+        top: 80px;
+        border-radius: 0px;
+
+    }
+}

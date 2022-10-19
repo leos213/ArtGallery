@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.maping1 {
+    position: relative;
+    height: 524px;
+
+}
+
+.maping2 {
+    display: none;
+}
+
+.location {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 264px;
+    height: 72px;
+    border: 1px solid black;
+    color: white;
+    background: linear-gradient(to right, #D5966C 30%, black 0%);
+
+
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    padding-left: 112px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.arrow {
+    position: absolute;
+    left: 33px;
+}
+
+
+.first {
+
+    height: 493px;
+
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+
+
+}
+
+
+
+h1 {
+
+    color: white;
+    height: 45px;
+    width: 343px;
+
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 48px;
+
+}
+
+
+h3 {
+    color: #D5966C;
+    height: 32px;
+    width: 343px;
+
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 48px;
+
+}
+
+.p1 {
+    color: white;
+    height: 84px;
+    width: 343px;
+
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+    padding-top: 24px;
+}
+
+.p2 {
+    color: white;
+    height: 140px;
+    width: 343px;
+
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    padding-top: 50px;
+
+
+
+}
+
+
+footer {
+
+    height: 336px;
+    background-color: #D5966C;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+}
+
+.logoLight2 {
+    height: 40px;
+    width: 111px;
+    margin-top: 48px;
+
+}
+
+.end p {
+
+    height: 104px;
+    width: 311px;
+
+    color: black;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 36px;
+
+
+}
+
+.icons2 {
+    margin-top: 38px;
+}
+
+.instagram {
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+@media screen and (min-width: 1280px) {
+    .maping1 {
+        display: none;
+    }
+
+    .maping2 {
+        display: inline;
+        width: 100%;
+        height: 600px;
+        margin-top: 20px;
+    }
+
+
+    .location {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 264px;
+        height: 72px;
+        border: 1px solid black;
+        color: white;
+        background: linear-gradient(to right, #D5966C 30%, black 0%);
+
+
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        padding-left: 112px;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 180px;
+        margin-top: 20px;
+
+    }
+
+    .first {
+
+        height: 548px;
+        width: 100%;
+
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        padding-left: 16px;
+    }
+
+    .allRight {
+        margin-left: 520px;
+    }
+
+    h1 {
+
+        color: white;
+        height: 140px;
+        width: 350px;
+
+        font-family: Big Shoulders Display;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 70px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 104px;
+        margin-left: 165px;
+
+    }
+
+
+    h3 {
+        color: #D5966C;
+        height: 36px;
+        width: 350px;
+
+        font-family: Big Shoulders Display;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+
+
+    }
+
+    .p1 {
+        color: white;
+        height: 84px;
+        width: 343px;
+
+        font-family: Outfit;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+
+
+        padding-top: 24px;
+    }
+
+    .p2 {
+        color: white;
+        height: 140px;
+        width: 343px;
+
+        font-family: Outfit;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        padding-top: 50px;
+
+    }
+
+
+    footer {
+        width: 100%;
+        height: 336px;
+        background-color: #D5966C;
+    }
+
+    .end {
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-between;
+        padding: 80px 165px 105px;
+    }
+
+    .logoLight2 {
+        height: 58px;
+        width: 159.57235717773438px;
+
+
+        margin-top: 48px;
+
+    }
+
+    .end p {
+
+        height: 84px;
+        width: 430px;
+
+        color: black;
+        font-family: Outfit;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 36px;
+
+
+    }
+
+    .icons2 {
+        margin-top: 38px;
+    }
+
+    .instagram {
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+}
